@@ -89,3 +89,4 @@ class OrderDetailView(View):
         order = get_object_or_404(Order, pk=pk)
         order.delete()
         return JsonResponse({'status':'deleted'}, status=204)
+ 

@@ -71,3 +71,4 @@ class OrderItem(models.Model):
             'quantity': self.quantity,
             'total': self.total
         }
+
